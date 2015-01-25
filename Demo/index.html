@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Framework</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../js/framework.js" type="text/javascript"></script>
+</head>
+
+<body acs-type="font-set-content">
+    <style>
+        body {
+            margin: 0px;
+        }
+        
+        header {
+            text-align: center;
+            background-color: #99ead0;
+            padding: 20px;
+        }
+        
+        nav {
+            background-color: #cea6a6;
+            box-sizing: border-box;
+            padding: 5px;
+            margin: 0px;
+            text-align: center;
+        }
+        
+        nav ul li {
+            font-size: 1.3em;
+            list-style: none;
+            display: inline;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        
+        #container {
+            float: left;
+        }
+        
+        .col-75 {
+            width: 75%;
+            box-sizing: border-box;
+            padding: 10px;
+            float: left;
+            background-image: url(http://images.visitcanberra.com.au/images/canberra_hero_image.jpg);
+            height: 580px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.6;
+        }
+        
+        .col-25 {
+            width: 25%;
+            box-sizing: border-box;
+            padding: 10px;
+            float: left;
+            background-color: #799af5;
+            text-align: justify;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #dab7ea;
+            float: right;
+            width: 100%;
+        }
+    </style>
+    <div acs-type="skip font-set"></div>
+    <header>
+        <h1>My first demo..</h1>
+        <h2>Second...</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Menu 1</a>
+            </li> |
+            <li><a href="#">Menu 2</a>
+            </li> |
+            <li><a href="#">Menu 3</a>
+            </li> |
+            <li><a href="#">Menu 4</a>
+            </li> |
+            <li><a href="#">Menu 5</a>
+            </li> |
+            <li><a href="#">Menu 6</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container" acs-type="skip-content">
+        <div class="col-75">
+        </div>
+        <div class="col-25">
+            <article acs-type="speak">
+                <h1>Título 1</h1>
+                <p>Para não ficar muito cansativo vou agora ensinar a fazer um belo miojo, ferva trezentos mls de água em uma panela, quando estiver fervendo coloque o miojo, espere cozinhar por três minutos, retire o miojo do fogão, misture bem e sirva.</p>
+                <p>Frite bacon em fogo alto, em sua própria gordura, por dois minutos. Em outra panela, coloque quatrocentos e cinquenta ml de água e leve ao fogo alto até ferver. Junte o macarrão e deixe cozinhar. Quando estiver pronto, misture com o bacon e sirva quente.</p>
+            </article>
+        </div>
+    </div>
+    <footer acs-type="skip">
+        <h2>Emanuel Teixeira</h2>
+    </footer>
+    <script>
+        $().initFramework();
+    </script>
+</body>
+
+</html>

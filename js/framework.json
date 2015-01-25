@@ -1,0 +1,31 @@
+{
+    "settings": [
+        {
+            "lang": "en",
+            "skipLabel": "Skip to content",
+            "skipTitle": "",
+            "skipContentError": "",
+            "fontSetLabelMore": "",
+            "fontSetTitleMore": ""
+        },
+        {
+            "lang": "pt",
+            "skipLabel": "Saltar para o conteúdo",
+            "skipTitle": "Ligação que permite ir directamente para a área de conteúdo.",
+            "skipContentError": "Mais que uma zona de conteúdos definida",
+            "fontSetLabelMore": "Aumentar tamanho da letra",
+            "fontSetTitleMore": "Ligação que permite aumentar o tamanho da letra",
+            "fontSetLabelMinus": "Diminuir tamanho da letra",
+            "fontSetTitleMinus": "Ligação que permite diminuir o tamanho da letra",
+            "fontSetLabelReplace": "Repor tamanho da letra",
+            "fontSetTitleReplace": "Ligação que permite repor o tamanho da letra original",
+            "speak": [
+                {
+                    "H1" : "Título de nível 1 :",
+                    "P" : "Paragrafo de texto :",
+                    "Text": "Texto livre"
+                }
+            ]
+        }
+    ]
+}
